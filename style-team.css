@@ -1,0 +1,172 @@
+
+ .team-presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  font-weight: normal;
+}
+
+.title-team-presentation {
+   font-weight: normal;
+}
+
+.text-team-presentation {
+  width: 45%;
+  text-align: center;
+  font-weight: normal;
+
+}
+
+.team-container { 
+  margin-top: 1.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+ }
+ 
+ .column {
+    float: left;
+    margin-bottom: 16px;
+    margin: 30px;
+    
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px; 
+    background: linear-gradient(146deg, rgba(0,0,0) 0%, rgba(141,115,172) 100%);
+  }
+  
+  .image-profil {
+    width: 65%;
+    clip-path:ellipse(50% 50%);
+
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+  }
+
+  .container {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    color: white;
+    
+
+  }
+  .nom {
+    font-size: 165%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .nom p {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description-profil {
+    align-items: center;
+    font-size: 100%;
+    width: 80%;
+    color: white;
+  }
+  
+  .email {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container h2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    display: flex;
+  }
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    width: 50%; 
+    height: 35px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration:none; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* .button:hover {
+  /* background-color: rgb(255, 255, 255);
+  color: black; */
+  /* border: 2px solid black; 
+}  */
+
+  /* -------------------------------------------------------------------------------- */
+  @media screen and (max-width: 650px) {
+   
+    .text-team-presentation {
+      /* border: 2px solid yellowgreen;  */
+      width: 85%;
+      text-align: center;
+    
+    }
+    .team-container {
+      /* border: 5px solid rgb(45, 23, 173);  */
+    
+      margin-top: 1.5%;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1%;
+     }
+    .column {
+      /* border: 2px solid rebeccapurple; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      width: 85%;
+      margin: 8%;
+      /* margin-bottom: 16px; */
+      /* margin-right: 50px; */
+    }
+
+    .image-profil {
+      width: 65%;
+      height: auto;
+    }
+
+    .description-profil {
+      align-items: center;
+      font-size: 100%;
+      width: 90%;
+    }
+  }
+  /*------------------------------------------------------------------------------------*/
